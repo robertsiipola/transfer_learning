@@ -1,0 +1,15 @@
+name: transfer_learning
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7  
+  - numpy
+  - pandas
+  - matplotlib
+  - pytorch=1.0
+  - Pillow
+  - python-dotenv
+  - jupyterlab
+  - torchvision
